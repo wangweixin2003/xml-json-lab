@@ -14,6 +14,7 @@ Because browser security blocks `fetch()` from a `file://` page, serve this fold
 
 Then open <http://localhost:8000>.
 
-## Publish with GitHub Pages
+## Published GitHub Pages site`r`n`r`n<https://wangweixin2003.github.io/xml-json-lab/>`r`n`r`n## Publish with GitHub Pages
 
 Create a GitHub repository, upload all files in this folder to its root, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub will provide the public Pages URL to submit.
+
