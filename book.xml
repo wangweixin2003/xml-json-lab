@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+  <book id="b001">
+    <title>The Quiet River</title>
+    <author>Amelia Carter</author>
+    <price currency="USD">18.99</price>
+  </book>
+  <book id="b002">
+    <title>Learning the Web</title>
+    <author>Marcus Lee</author>
+    <price currency="USD">24.50</price>
+  </book>
+  <book id="b003">
+    <title>Gardens in Winter</title>
+    <author>Sofia Bennett</author>
+    <price currency="USD">16.75</price>
+  </book>
+  <book id="b004">
+    <title>Beyond the Map</title>
+    <author>Daniel Okafor</author>
+    <price currency="USD">21.00</price>
+  </book>
+</catalogue>

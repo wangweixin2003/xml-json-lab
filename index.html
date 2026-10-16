@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XML & JSON Data Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div class="hero">
+    <p class="eyebrow">Web data lab</p>
+    <h1>Books and people, described with open data.</h1>
+    <p>This page loads an XML catalogue and a JSON collection with the Fetch API, then turns both into readable cards in the browser.</p>
+  </div></header>
+  <main>
+    <section aria-labelledby="books-heading">
+      <div class="section-heading"><h2 id="books-heading">Book catalogue</h2><p>XML → DOMParser → HTML</p></div>
+      <p id="book-status" class="status">Loading book.xml…</p>
+      <div id="book-list" class="grid"></div>
+    </section>
+    <section aria-labelledby="profiles-heading">
+      <div class="section-heading"><h2 id="profiles-heading">User profiles</h2><p>JSON → objects → HTML</p></div>
+      <p id="profile-status" class="status">Loading userProfiles.json…</p>
+      <div id="profile-list" class="grid"></div>
+    </section>
+  </main>
+  <footer>XML and JSON lab submission · Data is loaded from the accompanying files.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
